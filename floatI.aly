@@ -1,0 +1,21 @@
+{
+  LinearLayout;
+  layout_height="wrap";
+  layout_width="wrap";
+  padding="1dp";
+  {
+    LinearLayout;
+    layout_height="wrap";
+    layout_width="wrap";
+    Orientation="horizontal";
+    {
+      ImageView;
+      layout_height="55dp";
+      layout_width="55dp";
+      padding="1dp";
+
+      src="pro2.png";
+      id="btnHide";
+    };
+  };
+};

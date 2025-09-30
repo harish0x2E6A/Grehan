@@ -1,0 +1,2026 @@
+{
+  LinearLayout;
+  id="float_ly";
+  layout_height="wrap";
+  layout_width="wrap";
+  {
+    LinearLayout;
+    layout_height="fill";
+    layout_width="fill";
+    padding="0.3%h";
+    gravity="center";
+    {
+      CardView;
+      layout_height="wrap";
+      CardElevation="0dp";
+      id="border";
+      radius="10dp";
+      layout_width="80%w";
+      backgroundColor="0xFF2121FF";
+      {
+        LinearLayout;
+        padding="1%h";
+        layout_width="fill";
+        layout_height="fill";
+        orientation="vertical";
+        {
+          LinearLayout;
+          layout_height="wrap";
+          layout_width="fill";
+          id="title";
+          orientation="horizontal";
+          gravity="center";
+          {
+            LinearLayout;
+            layout_height="wrap";
+            layout_width="wrap";
+            gravity="center";
+            {
+              ImageView;
+              layout_height="4%h";
+              layout_width="4%h";
+              src="res/drawable/close.png";
+              id="btnMinimizeW";
+            };
+          };
+          {
+            TextView;
+            textColor="0xFF1C82FF";
+            gravity="center";
+            layout_height="wrap";
+            layout_width="24%h";
+            text="    GREHAN    ";
+            textSize="16sp";
+          };
+          {
+            LinearLayout;
+            layout_height="wrap";
+            layout_width="wrap";
+            gravity="right";
+            {
+              ImageView,
+              id = "btnMenuCheatHidden",
+              layout_height="4%h";
+              layout_width="4%h";
+              src="res/drawable/close.png";
+            }
+          }
+        };
+
+        {
+          LinearLayout;
+          orientation="horizontal";
+          layout_height="wrap";
+          layout_width="fill";
+          layout_gravity="center";
+          backgroundColor="0x00000000",
+          layout_margin="4dp";
+
+          {
+            TextView;
+            text="View";
+
+            id="menu1";
+
+            textSize="17sp";
+            textColor="0xFFFFFFFF";
+            layout_width="fill";
+            layout_height="fill";
+            layout_gravity="center";
+            gravity="center";
+            layout_weight=1;
+            layout_margin="2dp";
+            --Typeface=Typeface.defaultFromStyle(Typeface.BOLD);
+          };
+          {
+            LinearLayout;
+            layout_width="2dp";
+          };
+
+
+
+          {
+            TextView;
+            text="Strange";
+            id="menu2",
+            textSize="17sp";
+            textColor="0xFFFFFFFF";
+            layout_width="fill";
+            layout_height="30dp";
+            layout_gravity="center";
+            gravity="center";
+            layout_weight=1;
+            layout_margin="2dp";
+            --Typeface=Typeface.defaultFromStyle(Typeface.BOLD);
+          };
+
+          {
+            LinearLayout;
+            layout_width="2dp";
+          };
+
+          {
+            TextView;
+            text="Speed";
+            id="menu3",
+            textSize="17sp";
+            textColor="0xFFFFFFFF";
+            layout_width="fill";
+            layout_height="30dp";
+            layout_gravity="center";
+            gravity="center";
+            layout_weight=1;
+            layout_margin="2dp";
+            --Typeface=Typeface.defaultFromStyle(Typeface.BOLD);
+          };
+
+          {
+            LinearLayout;
+            layout_width="2dp";
+          };
+
+          {
+            TextView;
+            text="Skins";
+            id="menu4",
+            textSize="17sp";
+            textColor="0xFFFFFFFF";
+            layout_width="fill";
+            layout_height="30dp";
+            layout_gravity="center";
+            gravity="center";
+            layout_weight=1;
+            layout_margin="2dp";
+            --Typeface=Typeface.defaultFromStyle(Typeface.BOLD);
+          };
+
+
+
+        };
+
+
+        {
+          LinearLayout;
+          layout_height="fill";
+          layout_width="fill";
+          backgroundColor="0xFF1C82FF",
+        };
+        {
+          LinearLayout,
+          id="win_mainview",
+          layout_width="fill",
+          layout_height="30%h";
+          backgroundColor="0x00000000",
+          {
+            LinearLayout;
+            orientation="vertical";
+            layout_height="fill";
+            layout_width="fill";
+            gravity="center";
+            padding="5dp";
+
+            {
+              PageView,
+              id="pg",
+              layout_width="fill",
+              layout_height="fill",
+              pages={
+
+
+                {
+                  LinearLayout;
+                  orientation="vertical";
+                  padding="5";
+                  {
+                    ScrollView;
+                    layout_width="fill_parent";
+                    layout_height="fill",
+                    layout_gravity="center_vertical";
+                    {
+                      LinearLayout;
+                      layout_height="-1";
+                      layout_width="-1";
+                      id="first";
+                      orientation="vertical";
+                      {
+                        LinearLayout;
+                        layout_height="-1";
+                        layout_width="-1";
+                        orientation="vertical";
+                        {
+                          LinearLayout;
+                          id="_drawer_header";
+                          layout_height="-2";
+                          layout_width="-1";
+                          orientation="vertical";
+                          {
+                            LinearLayout;
+                            layout_height="-1";
+                            layout_width="-1";
+                            orientation="vertical";
+                            padding="5";
+                            {
+                              TextView;
+                              textColor="0xFF1C82FF";
+                              layout_height="wrap";
+                              layout_width="wrap";
+                              text=[==[Logo Bypass]==];
+                              textSize="13sp";
+                            };
+                            {
+                              LinearLayout,
+                              layout_width = "wrap",
+                              layout_height = "0.8%h"
+                            },
+                            {
+                              Switch;
+                              id="thirdparty";
+                              layout_height="wrap";
+                              layout_width="fill";
+                              text="   3rd party Ban Fixer";
+                              textColor="0xFFFFFFFF";
+                            };
+                            {
+                              LinearLayout,
+                              layout_width = "wrap",
+                              layout_height = "0.8%h"
+                            },
+                            {
+                              Switch;
+                              id="logobyp";
+                              layout_height="wrap";
+                              layout_width="fill";
+                              text="   Logo Bypass";
+                              textColor="0xFFFFFFFF";
+                            };
+                            {
+                              LinearLayout,
+                              layout_width = "wrap",
+                              layout_height = "0.8%h"
+                            },
+                            {
+                              TextView;
+                              textColor="0xFF1C82FF";
+                              layout_height="wrap";
+                              layout_width="wrap";
+                              text=[==[Lobby Bypass]==];
+                              textSize="13sp";
+                            };
+                            {
+                              LinearLayout,
+                              layout_width = "wrap",
+                              layout_height = "0.8%h"
+                            },
+                            {
+                              Switch;
+                              id="lbybypass";
+                              layout_height="wrap";
+                              layout_width="fill";
+                              text="   Lobby Bypass";
+                              textColor="0x80808080";
+                            };
+                            {
+                              LinearLayout,
+                              layout_width = "wrap",
+                              layout_height = "0.8%h"
+                            },
+                            {
+                              TextView;
+                              textColor="0xFF1C82FF";
+                              layout_height="wrap";
+                              layout_width="wrap";
+                              text=[==[Island Bypass]==];
+                              textSize="13sp";
+                            };
+                            {
+                              LinearLayout,
+                              layout_width = "wrap",
+                              layout_height = "0.8%h"
+                            },
+                            {
+                              Switch;
+                              id="islndbyp";
+                              layout_height="wrap";
+                              layout_width="fill";
+                              text="  Island Bypass V1";
+                              textColor="0xFFFFFFFF";
+                            };
+                            {
+                              LinearLayout,
+                              layout_width = "wrap",
+                              layout_height = "0.8%h"
+                            },
+                            {
+                              TextView;
+                              textColor="0xFF1C82FF";
+                              layout_height="wrap";
+                              layout_width="wrap";
+                              text=[==[  IP Tables(ON-Island,OFF-after dead)]==];
+                              textSize="13sp";
+                            };
+                            {
+                              LinearLayout,
+                              layout_width = "wrap",
+                              layout_height = "0.8%h"
+                            },
+                            {
+                              Switch;
+                              id="iptables";
+                              layout_height="wrap";
+                              layout_width="fill";
+                              text="   Island Bypass V2";
+                              textColor="0x80808080";
+                            };
+
+                            {
+                              LinearLayout,
+                              layout_width = "wrap",
+                              layout_height = "0.8%h"
+                            },
+                            {
+                              TextView;
+                              textColor="0xFF1C82FF";
+                              layout_height="wrap";
+                              layout_width="wrap";
+                              text="FPS Settings";
+                              textSize="13sp";
+                            };
+                            {
+                              LinearLayout,
+                              layout_width = "wrap",
+                              layout_height = "0.8%h"
+                            },
+                            {
+                              RadioGroup;
+                              layout_height="wrap";
+                              layout_width="wrap";
+                              orientation="vertical";
+                              {
+                                RadioButton;
+                                id="fps30";
+                                textColor="0xFFFFFFFF";
+                                layout_height="wrap";
+                                layout_width="35.6%h";
+                                text="FPS 30";
+                                checked="true";
+                              };
+                              {
+                                LinearLayout,
+                                layout_width = "wrap",
+                                layout_height = "0.8%h"
+                              },
+                              {
+                                RadioButton;
+                                id="fps60";
+                                layout_height="wrap";
+                                layout_width="35.6%h";
+                                text="FPS 60";
+                                textColor="0xFFFFFFFF";
+
+                              };
+                              {
+                                LinearLayout,
+                                layout_width = "wrap",
+                                layout_height = "0.8%h"
+                              },
+                              {
+                                RadioButton;
+                                id="fps90";
+                                textColor="0xFFFFFFFF";
+                                buttonColor="0xFFFF0000";
+                                layout_height="wrap";
+                                layout_width="35.6%h";
+                                text="FPS 90";
+
+                              };
+                              {
+                                LinearLayout,
+                                layout_width = "wrap",
+                                layout_height = "0.8%h"
+                              },
+                              {
+                                RadioButton;
+                                id="fps120";
+                                textColor="0xFFFFFFFF";
+                                layout_height="wrap";
+                                layout_width="35.6%h";
+                                text="FPS 120";
+
+                              };
+                            };
+
+                            {
+                              TextView;
+                              textColor="0xFF1C82FF";
+                              layout_height="wrap";
+                              layout_width="wrap";
+                              text=[==[View Menu]==];
+                              textSize="13sp";
+                            };
+
+                            {
+                              LinearLayout,
+                              layout_width = "wrap",
+                              layout_height = "0.5%h"
+                            },
+                            {
+                              LinearLayout;
+                              orientation="horizontal";
+                              layout_height="wrap";
+                              layout_width="fill";
+                              layout_margin="3dp";
+                              padding="6dp";
+                              id="view2";
+                              {
+                                TextView,
+                                layout_gravity="center";
+                                text = " IPad View : 0",
+                                textSize="15dp",
+                                id="wide";
+                                textColor = "0xffffffff" ,
+                                padding="3dp";
+                              };
+                              {
+                                SeekBar;
+                                layout_height="3%h";
+                                layout_width="fill";
+                                id="Dragbar2";
+                                layout_weight="1";
+                                max="5";
+                                progress="0";
+                                layout_width="match_parent";
+                              };
+                            };
+                            {
+                              TextView;
+                              textColor="0xFF1C82FF";
+                              layout_height="wrap";
+                              layout_width="wrap";
+                              text=[==[Fog Menu]==];
+                              textSize="13sp";
+                            };
+                            {
+                              LinearLayout,
+                              layout_width = "wrap",
+                              layout_height = "0.8%h"
+                            },
+                            {
+                              RadioGroup;
+                              layout_height="wrap";
+                              layout_width="wrap";
+                              orientation="vertical";
+                              {
+                                RadioButton;
+                                id="disable";
+                                textColor="0xFFFFFFFF";
+                                layout_height="wrap";
+                                layout_width="35.6%h";
+                                text="Disable";
+                                checked="true";
+                              };
+                              {
+                                LinearLayout,
+                                layout_width = "wrap",
+                                layout_height = "0.8%h"
+                              },
+                              {
+                                RadioButton;
+                                id="nofog";
+                                layout_height="wrap";
+                                layout_width="35.6%h";
+                                text="No Fog";
+                                textColor="0xFFFFFFFF";
+
+                              };
+                              {
+                                LinearLayout,
+                                layout_width = "wrap",
+                                layout_height = "0.8%h"
+                              },
+                              {
+                                RadioButton;
+                                id="purple";
+                                textColor="0xFFFFFFFF";
+                                buttonColor="0xFFFF0000";
+                                layout_height="wrap";
+                                layout_width="35.6%h";
+                                text="Purple Fog";
+
+                              };
+                              {
+                                LinearLayout,
+                                layout_width = "wrap",
+                                layout_height = "0.8%h"
+                              },
+                              {
+                                RadioButton;
+                                id="green";
+                                textColor="0xFFFFFFFF";
+                                layout_height="wrap";
+                                layout_width="35.6%h";
+                                text="Green Fog";
+
+                              };
+                              {
+                                LinearLayout,
+                                layout_width = "wrap",
+                                layout_height = "0.8%h"
+                              },
+                              {
+                                RadioButton;
+                                id="cyan";
+                                textColor="0xFFFFFFFF";
+                                layout_height="wrap";
+                                layout_width="35.6%h";
+                                text="Cyan Fog";
+
+                              };
+                              {
+                                LinearLayout,
+                                layout_width = "wrap",
+                                layout_height = "0.8%h"
+                              },
+                              {
+                                RadioButton;
+                                id="red";
+                                textColor="0xFFFFFFFF";
+                                layout_height="wrap";
+                                layout_width="35.6%h";
+                                text="Red Fog";
+
+                              };
+                              {
+                                LinearLayout,
+                                layout_width = "wrap",
+                                layout_height = "0.8%h"
+                              },
+                              {
+                                RadioButton;
+                                id="blue";
+                                textColor="0xFFFFFFFF";
+                                layout_height="wrap";
+                                layout_width="35.6%h";
+                                text="Blue Fog";
+
+                              };
+                              {
+                                LinearLayout,
+                                layout_width = "wrap",
+                                layout_height = "0.8%h"
+                              },
+                              {
+                                RadioButton;
+                                id="rainbow";
+                                textColor="0xFFFFFFFF";
+                                layout_height="wrap";
+                                layout_width="35.6%h";
+                                text="Rainbow Fog";
+
+                              };
+
+                            };
+                            {
+                              TextView;
+                              textColor="0xFF1C82FF";
+                              layout_height="wrap";
+                              layout_width="wrap";
+                              text=[==[Player Menu]==];
+                              textSize="13sp";
+                            };
+                            {
+                              LinearLayout,
+                              layout_width = "wrap",
+                              layout_height = "0.8%h"
+                            };
+
+                            {
+                              Switch;
+                              id="norecoil";
+                              layout_height="wrap";
+                              layout_width="fill";
+                              text="   No Recoil";
+                              textColor="0xFFFFFFFF";
+                            };
+                            {
+                              LinearLayout,
+                              layout_width = "wrap",
+                              layout_height = "0.8%h"
+                            },
+                            {
+                              Switch;
+                              id="noshake";
+                              layout_height="wrap";
+                              layout_width="fill";
+                              text="   No Shake";
+                              textColor="0xFFFFFFFF";
+                            };
+                            {
+                              LinearLayout,
+                              layout_width = "wrap",
+                              layout_height = "0.8%h"
+                            },
+                            {
+                              Switch;
+                              id="smallcrosshair";
+                              layout_height="wrap";
+                              layout_width="fill";
+                              text="   Small Crosshair";
+                              textColor="0xFFFFFFFF";
+                            };
+                            {
+                              LinearLayout,
+                              layout_width = "wrap",
+                              layout_height = "0.8%h"
+                            },
+                            {
+                              Switch;
+                              id="blackbody";
+                              layout_height="wrap";
+                              layout_width="fill";
+                              text="   Black Body";
+                              textColor="0xFFFFFFFF";
+                            };
+                            {
+                              LinearLayout,
+                              layout_width = "wrap",
+                              layout_height = "0.8%h"
+                            },
+                            {
+                              Switch;
+                              id="blacksky";
+                              layout_height="wrap";
+                              layout_width="fill";
+                              text="   Black Sky";
+                              textColor="0xFFFFFFFF";
+                            };
+                            {
+                              LinearLayout,
+                              layout_width = "wrap",
+                              layout_height = "0.8%h"
+                            },
+                            {
+                              Switch;
+                              id="nogrs";
+                              layout_height="wrap";
+                              layout_width="fill";
+                              text="   No Grass";
+                              textColor="0xFFFFFFFF";
+                            };
+                            {
+                              LinearLayout,
+                              layout_width = "wrap",
+                              layout_height = "0.8%h"
+                            },
+                            {
+                              Switch;
+                              id="notree";
+                              layout_height="wrap";
+                              layout_width="fill";
+                              text="   No Tree";
+                              textColor="0xFFFFFFFF";
+                            };
+                            {
+                              LinearLayout,
+                              layout_width = "wrap",
+                              layout_height = "0.8%h"
+                            },
+                            {
+                              Switch;
+                              id="antenna";
+                              layout_height="wrap";
+                              layout_width="fill";
+                              text="   Antenna";
+                              textColor="0xFFFFFFFF";
+                            };
+                            {
+                              LinearLayout,
+                              layout_width = "wrap",
+                              layout_height = "0.8%h"
+                            },
+                            {
+                              Switch;
+                              id="nightmod";
+                              layout_height="wrap";
+                              layout_width="fill";
+                              text="   Night Mod";
+                              textColor="0xFFFFFFFF";
+                            };
+                            {
+                              LinearLayout,
+                              layout_width = "wrap",
+                              layout_height = "0.8%h"
+                            },
+                            {
+                              Switch;
+                              id="desertmod";
+                              layout_height="wrap";
+                              layout_width="fill";
+                              text="   Desert Mod";
+                              textColor="0xFFFFFFFF";
+                            };
+
+
+
+
+                          };
+                        };
+                      };
+                    };
+                  };
+                };
+
+                {
+                  LinearLayout;
+                  orientation="vertical";
+                  id="second";
+                  padding="2";
+                  {
+                    ScrollView;
+                    layout_width="fill_parent";
+                    layout_height="fill",
+                    layout_gravity="center_horizontal";
+                    {
+                      LinearLayout;
+                      layout_height="-1";
+                      layout_width="-1";
+                      orientation="vertical";
+                      {
+                        LinearLayout;
+                        id="_drawer_header";
+                        layout_height="-2";
+                        layout_width="-1";
+                        orientation="vertical";
+                        {
+                          LinearLayout;
+                          layout_height="-1";
+                          layout_width="-1";
+                          orientation="vertical";
+                          padding="5";
+
+                          {
+                            TextView;
+                            textColor="0xFF1C82FF";
+                            layout_height="wrap";
+                            layout_width="wrap";
+                            text=[==[Gun Menu]==];
+                            textSize="13sp";
+                          };
+                          {
+                            CheckBox;
+                            id="autouammo";
+                            layout_height="wrap";
+                            layout_width="fill";
+                            text="   Auto Update [Unlimited Ammo]";
+                            textColor="0xFFFFFFFF";
+                          };
+                          {
+                            Switch;
+                            id="uammo";
+                            layout_height="wrap";
+                            layout_width="fill";
+                            text="   Unlimited Ammo";
+                            textColor="0xFFFFFFFF";
+                          };
+                          {
+                            LinearLayout,
+                            layout_width = "wrap",
+                            layout_height = "0.8%h"
+                          },
+                          {
+                            Switch;
+                            id="autosniper";
+                            layout_height="wrap";
+                            layout_width="fill";
+                            text="   Auto Sniper ";
+                            textColor="0xFFFFFFFF";
+                          };
+                          {
+                            LinearLayout,
+                            layout_width = "wrap",
+                            layout_height = "0.8%h"
+                          },
+                          {
+                            Switch;
+                            id="headshot1";
+                            layout_height="wrap";
+                            layout_width="fill";
+                            text="   Headshot v1";
+                            textColor="0xFFFFFFFF";
+                          };
+                          {
+                            LinearLayout,
+                            layout_width = "wrap",
+                            layout_height = "0.8%h"
+                          },
+                          {
+                            Switch;
+                            id="headshot2";
+                            layout_height="wrap";
+                            layout_width="fill";
+                            text="   Headshot v2";
+                            textColor="0xFFFFFFFF";
+                          };
+                          {
+                            LinearLayout,
+                            layout_width = "wrap",
+                            layout_height = "0.8%h"
+                          },
+                          {
+                            Switch;
+                            id="headshot3";
+                            layout_height="wrap";
+                            layout_width="fill";
+                            text="   Headshot v3";
+                            textColor="0xFFFFFFFF";
+                          };
+                          {
+                            LinearLayout,
+                            layout_width = "wrap",
+                            layout_height = "0.8%h"
+                          },
+                          {
+                            Switch;
+                            id="magicbullet1";
+                            layout_height="wrap";
+                            layout_width="fill";
+                            text="   Magic Bullet v1";
+                            textColor="0xFFFFFFFF";
+                          };
+                          {
+                            LinearLayout,
+                            layout_width = "wrap",
+                            layout_height = "0.8%h"
+                          },
+                          {
+                            Switch;
+                            id="magicbullet2";
+                            layout_height="wrap";
+                            layout_width="fill";
+                            text="   Magic Bullet v2";
+                            textColor="0xFFFFFFFF";
+                          };
+                          {
+                            LinearLayout,
+                            layout_width = "wrap",
+                            layout_height = "0.8%h"
+                          },
+                          {
+                            Switch;
+                            id="instanthit";
+                            layout_height="wrap";
+                            layout_width="fill";
+                            text="   Instant Hit";
+                            textColor="0xFFFFFFFF";
+                          };
+                          {
+                            LinearLayout,
+                            layout_width = "wrap",
+                            layout_height = "0.8%h"
+                          },
+                          {
+                            Switch;
+                            id="aimbot";
+                            layout_height="wrap";
+                            layout_width="fill";
+                            text="    Aimbot";
+                            textColor="0xFFFFFFFF";
+                          };
+                          {
+                            LinearLayout,
+                            layout_width = "wrap",
+                            layout_height = "0.8%h"
+                          },
+                          {
+                            Switch;
+                            id="xhit1";
+                            layout_height="wrap";
+                            layout_width="fill";
+                            text="   X hit effect - v1";
+                            textColor="0xFFFFFFFF";
+                          };
+                          {
+                            LinearLayout,
+                            layout_width = "wrap",
+                            layout_height = "0.8%h"
+                          },
+                          {
+                            Switch;
+                            id="xhit2";
+                            layout_height="wrap";
+                            layout_width="fill";
+                            text="   X hit effect - v2";
+                            textColor="0xFFFFFFFF";
+                          };
+                          {
+                            LinearLayout,
+                            layout_width = "wrap",
+                            layout_height = "0.8%h"
+                          },
+                          {
+                            Switch;
+                            id="static";
+                            layout_height="wrap";
+                            layout_width="fill";
+                            text="   Static hit effect";
+                            textColor="0xFFFFFFFF";
+                          };
+                          {
+                            LinearLayout,
+                            layout_width = "wrap",
+                            layout_height = "0.8%h"
+                          },
+                          {
+                            Switch;
+                            id="rainbowhit";
+                            layout_height="wrap";
+                            layout_width="fill";
+                            text="   Rainbow hit effect ";
+                            textColor="0xFFFFFFFF";
+                          };
+                          {
+                            LinearLayout,
+                            layout_width = "wrap",
+                            layout_height = "0.8%h"
+                          },
+                          {
+                            TextView;
+                            textColor="0xFF1C82FF";
+                            layout_height="wrap";
+                            layout_width="wrap";
+                            text=[==[Others]==];
+                            textSize="13sp";
+                          };
+                          {
+                            LinearLayout,
+                            layout_width = "wrap",
+                            layout_height = "0.8%h"
+                          },
+                          {
+                            Switch;
+                            id="sitgod";
+                            layout_height="wrap";
+                            layout_width="fill";
+                            text="   Sit God View High";
+                            textColor="0xFFFFFFFF";
+                          };
+                          {
+                            LinearLayout,
+                            layout_width = "wrap",
+                            layout_height = "0.8%h"
+                          },
+                          {
+                            Switch;
+                            id="sitgodlow";
+                            layout_height="wrap";
+                            layout_width="fill";
+                            text="   Sit God View Low";
+                            textColor="0xFFFFFFFF";
+                          };
+                          {
+                            LinearLayout,
+                            layout_width = "wrap",
+                            layout_height = "0.8%h"
+                          },
+                          {
+                            Switch;
+                            id="standscp";
+                            layout_height="wrap";
+                            layout_width="fill";
+                            text="   Stand scope";
+                            textColor="0xFFFFFFFF";
+                          };
+                          {
+                            LinearLayout,
+                            layout_width = "wrap",
+                            layout_height = "0.8%h"
+                          },
+                          {
+                            Switch;
+                            id="sitscp";
+                            layout_height="wrap";
+                            layout_width="fill";
+                            text="   Sit scope";
+                            textColor="0xFFFFFFFF";
+                          };
+
+                          {
+                            LinearLayout,
+                            layout_width = "wrap",
+                            layout_height = "0.8%h"
+                          },
+                          {
+                            Switch;
+                            id="prnscp";
+                            layout_height="wrap";
+                            layout_width="fill";
+                            text="   Prone scope";
+                            textColor="0xFFFFFFFF";
+                          };
+                          {
+                            LinearLayout,
+                            layout_width = "wrap",
+                            layout_height = "0.8%h"
+                          },
+                          {
+                            Switch;
+                            id="fixping";
+                            layout_height="wrap";
+                            layout_width="fill";
+                            text="   Fix Ping";
+                            textColor="0xFFFFFFFF";
+                          };
+                          {
+                            LinearLayout,
+                            layout_width = "wrap",
+                            layout_height = "0.8%h"
+                          },
+                          {
+                            Switch;
+                            id="autodrive";
+                            layout_height="wrap";
+                            layout_width="fill";
+                            text="   Auto Drive";
+                            textColor="0xFFFFFFFF";
+                          };
+                          {
+                            LinearLayout,
+                            layout_width = "wrap",
+                            layout_height = "0.8%h"
+                          },
+                          {
+                            TextView;
+                            textColor="0xFF1C82FF";
+                            layout_height="wrap";
+                            layout_width="wrap";
+                            text=[==[Fly menu]==];
+                            textSize="13sp";
+                          };
+                          {
+                            LinearLayout,
+                            layout_width = "wrap",
+                            layout_height = "0.8%h"
+                          },
+                          {
+                            Switch;
+                            id="sitfly";
+                            layout_height="wrap";
+                            layout_width="fill";
+                            text="   Sit Fly";
+                            textColor="0xFFFFFFFF";
+                          };
+                          {
+                            LinearLayout,
+                            layout_width = "wrap",
+                            layout_height = "0.8%h"
+                          },
+                          {
+                            Switch;
+                            id="longjump";
+                            layout_height="wrap";
+                            layout_width="fill";
+                            text="   Long Jump";
+                            textColor="0xFFFFFFFF";
+                          };
+                          {
+                            LinearLayout,
+                            layout_width = "wrap",
+                            layout_height = "0.8%h"
+                          },
+                          {
+                            Switch;
+                            id="skyfly";
+                            layout_height="wrap";
+                            layout_width="fill";
+                            text="   Sky Fly";
+                            textColor="0xFFFFFFFF";
+                          };
+                          {
+                            LinearLayout,
+                            layout_width = "wrap",
+                            layout_height = "0.8%h"
+                          },
+                          {
+                            Switch;
+                            id="skyfly2";
+                            layout_height="wrap";
+                            layout_width="fill";
+                            text="   Stable Man Fly";
+                            textColor="0xFFFFFFFF";
+                          };
+                          {
+                            LinearLayout,
+                            layout_width = "wrap",
+                            layout_height = "0.8%h"
+                          },
+                          {
+                            Switch;
+                            id="carfl";
+                            layout_height="wrap";
+                            layout_width="fill";
+                            text="   Car Fly";
+                            textColor="0xFFFFFFFF";
+                          };
+
+
+                        };
+                      };
+                    };
+                  };
+                };
+                {
+                  LinearLayout;
+                  orientation="vertical";
+                  id="third";
+                  padding="2";
+                  {
+                    ScrollView;
+                    layout_width="fill_parent";
+                    layout_height="fill",
+                    layout_gravity="center_horizontal";
+                    {
+                      LinearLayout;
+                      layout_height="-1";
+                      layout_width="-1";
+                      orientation="vertical";
+                      {
+                        LinearLayout;
+                        id="_drawer_header";
+                        layout_height="-2";
+                        layout_width="-1";
+                        orientation="vertical";
+                        {
+                          LinearLayout;
+                          layout_height="-1";
+                          layout_width="-1";
+                          orientation="vertical";
+                          padding="5";
+                          {
+                            TextView;
+                            textColor="0xFF1C82FF";
+                            layout_height="wrap";
+                            layout_width="wrap";
+                            text=[==[Fix stuck]==];
+                            textSize="13sp";
+                          };
+                          {
+                            LinearLayout,
+                            layout_width = "wrap",
+                            layout_height = "0.8%h"
+                          },
+                          {
+                            Switch;
+                            id="fixstuck1";
+                            layout_height="wrap";
+                            layout_width="fill";
+                            text="   Fix Stuck - v1";
+                            textColor="0xFFFFFFFF";
+                          };
+                          {
+                            LinearLayout,
+                            layout_width = "wrap",
+                            layout_height = "0.8%h"
+                          },
+                          {
+                            Switch;
+                            id="fixstuck2";
+                            layout_height="wrap";
+                            layout_width="fill";
+                            text="   Fix Stuck - v2";
+                            textColor="0xFFFFFFFF";
+                          };
+                          {
+                            LinearLayout,
+                            layout_width = "wrap",
+                            layout_height = "0.8%h"
+                          },
+                          {
+                            TextView;
+                            textColor="0xFF1C82FF";
+                            layout_height="wrap";
+                            layout_width="wrap";
+                            text=[==[Flash Menu]==];
+                            textSize="13sp";
+                          };
+                          {
+                            LinearLayout,
+                            layout_width = "wrap",
+                            layout_height = "0.8%h"
+                          },
+                          {
+                            LinearLayout;
+                            orientation="horizontal";
+                            layout_height="wrap";
+                            layout_width="fill";
+                            layout_margin="3dp";
+                            padding="-2dp";
+                            id="spd";
+                            {
+                              TextView,
+                              layout_gravity="center";
+                              text = " Speed : 0",
+                              textSize="15dp",
+                              id="speedadj";
+                              textColor = "0xffffffff" ,
+                              padding="3dp";
+                            };
+                            {
+                              SeekBar;
+                              layout_height="3%h";
+                              layout_width="fill";
+                              id="Dragbar3";
+                              layout_weight="1";
+                              max="10";
+                              progress="0";
+                              layout_width="match_parent";
+
+                            },
+                          },
+                          {
+                            LinearLayout,
+                            layout_width = "wrap",
+                            layout_height = "0.5%h"
+                          },
+                          {
+                            Switch;
+                            id="flash1";
+                            layout_height="wrap";
+                            layout_width="fill";
+                            text="   Flash v1";
+                            textColor="0xFFFFFFFF";
+                          };
+                          {
+                            LinearLayout,
+                            layout_width = "wrap",
+                            layout_height = "0.8%h"
+                          },
+                          {
+                            Switch;
+                            id="flash2";
+                            layout_height="wrap";
+                            layout_width="fill";
+                            text="   Flash v2";
+                            textColor="0xFFFFFFFF";
+                          };
+                          {
+                            LinearLayout,
+                            layout_width = "wrap",
+                            layout_height = "0.8%h"
+                          },
+                          {
+                            Switch;
+                            id="flash3";
+                            layout_height="wrap";
+                            layout_width="fill";
+                            text="   Flash v3 ";
+                            textColor="0xFFFFFFFF";
+                          };
+                          {
+                            LinearLayout,
+                            layout_width = "wrap",
+                            layout_height = "0.8%h"
+                          },
+                          {
+                            Switch;
+                            id="flash4";
+                            layout_height="wrap";
+                            layout_width="fill";
+                            text="   Flash v4";
+                            textColor="0xFFFFFFFF";
+                          };
+                          {
+                            LinearLayout,
+                            layout_width = "wrap",
+                            layout_height = "0.8%h"
+                          },
+                          {
+                            Switch;
+                            id="flash5";
+                            layout_height="wrap";
+                            layout_width="fill";
+                            text="   Flash v5";
+                            textColor="0xFFFFFFFF";
+                          };
+                          {
+                            LinearLayout,
+                            layout_width = "wrap",
+                            layout_height = "0.8%h"
+                          },
+                          {
+                            Switch;
+                            id="flash6";
+                            layout_height="wrap";
+                            layout_width="fill";
+                            text="   Flash v6";
+                            textColor="0xFFFFFFFF";
+                          };
+                          {
+                            LinearLayout,
+                            layout_width = "wrap",
+                            layout_height = "0.8%h"
+                          },
+                          {
+                            Switch;
+                            id="flash7";
+                            layout_height="wrap";
+                            layout_width="fill";
+                            text="   Flash v7";
+                            textColor="0xFFFFFFFF";
+                          };
+                          {
+                            LinearLayout,
+                            layout_width = "wrap",
+                            layout_height = "0.8%h"
+                          },
+                          {
+                            TextView;
+                            textColor="0xFF1C82FF";
+                            layout_height="wrap";
+                            layout_width="wrap";
+                            text=[==[Fast Parachute]==];
+                            textSize="13sp";
+                          };
+                          {
+                            LinearLayout,
+                            layout_width = "wrap",
+                            layout_height = "0.8%h"
+                          },
+                          {
+                            Switch;
+                            id="fastpara1";
+                            layout_height="wrap";
+                            layout_width="fill";
+                            text="   Fast parachute v1";
+                            textColor="0xFFFFFFFF";
+                          };
+                          {
+                            LinearLayout,
+                            layout_width = "wrap",
+                            layout_height = "0.8%h"
+                          },
+                          {
+                            Switch;
+                            id="fastpara2";
+                            layout_height="wrap";
+                            layout_width="fill";
+                            text="   Fast parachute v2";
+                            textColor="0xFFFFFFFF";
+                          };
+                          {
+                            LinearLayout,
+                            layout_width = "wrap",
+                            layout_height = "0.8%h"
+                          },
+                          {
+                            Switch;
+                            id="fastpara3";
+                            layout_height="wrap";
+                            layout_width="fill";
+                            text="   Fast parachute v3";
+                            textColor="0xFFFFFFFF";
+                          };
+                          {
+                            LinearLayout,
+                            layout_width = "wrap",
+                            layout_height = "0.8%h"
+                          },
+                          {
+                            TextView;
+                            textColor="0xFF1C82FF";
+                            layout_height="wrap";
+                            layout_width="wrap";
+                            text=[==[Fast Car]==];
+                            textSize="13sp";
+                          };
+                          {
+                            Switch;
+                            id="fastcar";
+                            layout_height="wrap";
+                            layout_width="fill";
+                            text="   Fast all cars";
+                            textColor="0xFFFFFFFF";
+                          };
+                          {
+                            LinearLayout,
+                            layout_width = "wrap",
+                            layout_height = "0.8%h"
+                          },
+                          {
+                            TextView;
+                            textColor="0xFF1C82FF";
+                            layout_height="wrap";
+                            layout_width="wrap";
+                            text=[==[Others]==];
+                            textSize="13sp";
+                          };
+                          {
+                            LinearLayout,
+                            layout_width = "wrap",
+                            layout_height = "0.8%h"
+                          },
+                          {
+                            Switch;
+                            id="knockspeed";
+                            layout_height="wrap";
+                            layout_width="fill";
+                            text="   Knock speed";
+                            textColor="0xFFFFFFFF";
+                          };
+                          {
+                            LinearLayout,
+                            layout_width = "wrap",
+                            layout_height = "0.8%h"
+                          },
+                          {
+                            Switch;
+                            id="pronespeed";
+                            layout_height="wrap";
+                            layout_width="fill";
+                            text="   Prone speed";
+                            textColor="0xFFFFFFFF";
+                          };
+                          {
+                            LinearLayout,
+                            layout_width = "wrap",
+                            layout_height = "0.8%h"
+                          },
+                          {
+                            Switch;
+                            id="fastscope";
+                            layout_height="wrap";
+                            layout_width="fill";
+                            text="   Fast Scope";
+                            textColor="0xFFFFFFFF";
+                          };
+                          {
+                            LinearLayout,
+                            layout_width = "wrap",
+                            layout_height = "0.8%h"
+                          },
+                          {
+                            Switch;
+                            id="fastbullet";
+                            layout_height="wrap";
+                            layout_width="fill";
+                            text="   Fast Bullet";
+                            textColor="0xFFFFFFFF";
+                          };
+                          {
+                            LinearLayout,
+                            layout_width = "wrap",
+                            layout_height = "0.8%h"
+                          },
+                          {
+                            Switch;
+                            id="slowmo";
+                            layout_height="wrap";
+                            layout_width="fill";
+                            text="   Slow Motion";
+                            textColor="0xFFFFFFFF";
+                          };
+                        };
+                      };
+                    };
+                  };
+                };
+                {
+                  LinearLayout;
+                  orientation="vertical";
+                  padding="5";
+                  {
+                    ScrollView;
+                    layout_width="fill_parent";
+                    layout_height="fill",
+                    layout_gravity="center_horizontal";
+                    {
+                      LinearLayout;
+                      layout_height="-1";
+                      layout_width="-1";
+                      orientation="vertical";
+                      {
+                        LinearLayout;
+                        id="_drawer_header";
+                        layout_height="-2";
+                        layout_width="-1";
+                        orientation="vertical";
+                        {
+                          LinearLayout;
+                          layout_height="-1";
+                          layout_width="-1";
+                          orientation="vertical";
+                          padding="5";
+                          {
+                            TextView;
+                            text="M416";
+                            textColor="0xFFFFFFFF";
+
+                            backgroundColor="0xFF1C82FF";
+                            id="m416";
+                            textSize="15sp";
+                            layout_gravity="center";
+                            layout_width="fill";
+                            layout_height="wrap";
+                            layout_margin="3dp";
+                            padding="4dp";
+                          };
+                          {
+                            RadioGroup;
+                            layout_height="wrap";
+                            layout_width="fill";
+                            {
+                              RadioButton;
+                              layout_width="-1";
+                              layout_height="wrap";
+                              textColor="0xffffffff";
+                              id="disable1";
+                              text="Disable/OFF";
+                              textSize="12dp";
+                              layout_margin="3dp";
+                            };
+                            {
+                              RadioButton;
+                              layout_width="-1";
+                              layout_height="wrap";
+                              textColor="0xffffffff";
+                              id="glacier";
+                              text="Glacier";
+                              textSize="12dp";
+                              layout_margin="3dp";
+                            };
+                            {
+                              RadioButton;
+                              layout_width="-1";
+                              layout_height="wrap";
+                              textColor="0xffffffff";
+                              id="lizard";
+                              text="Lizard";
+                              textSize="12dp";
+                              layout_margin="3dp";
+                            };
+                            {
+                              RadioButton;
+                              layout_width="-1";
+                              layout_height="wrap";
+                              textColor="0xffffffff";
+                              id="thefool";
+                              text="The Fool";
+                              textSize="12dp";
+                              layout_margin="3dp";
+                            };
+                            {
+                              RadioButton;
+                              layout_width="-1";
+                              layout_height="wrap";
+                              textColor="0xffffffff";
+                              id="wanderer";
+                              text="Wanderer";
+                              textSize="12dp";
+                              layout_margin="3dp";
+                            };
+                          };
+                          {
+                            TextView;
+                            text="SCAR L";
+                            textColor="0xFFFFFFFF";
+                            backgroundColor="0xFF1C82FF";
+                            id="scarl";
+                            textSize="15sp";
+                            layout_gravity="center";
+                            layout_width="fill";
+                            layout_height="wrap";
+                            padding="4dp";
+                            layout_margin="3dp";
+                          };
+                          {
+                            RadioGroup;
+                            layout_height="wrap";
+                            layout_width="fill";
+                            {
+                              RadioButton;
+                              layout_width="-1";
+                              layout_height="wrap";
+                              textColor="0xffffffff";
+                              id="disable2";
+                              text="Disable/OFF";
+                              textSize="12dp";
+                              layout_margin="3dp";
+                            };
+                            {
+                              RadioButton;
+                              layout_width="-1";
+                              layout_height="wrap";
+                              textColor="0xffffffff";
+                              id="operation";
+                              text="Operation";
+                              textSize="12dp";
+                              layout_margin="3dp";
+                            };
+                            {
+                              RadioButton;
+                              layout_width="-1";
+                              layout_height="wrap";
+                              textColor="0xffffffff";
+                              id="pumkin";
+                              text="Pumkin";
+                              textSize="12dp";
+                              layout_margin="3dp";
+                            };
+                            {
+                              RadioButton;
+                              layout_width="-1";
+                              layout_height="wrap";
+                              textColor="0xffffffff";
+                              id="water";
+                              text="Water Blaster";
+                              textSize="12dp";
+                              layout_margin="3dp";
+                            };
+
+                          };
+                          {
+                            TextView;
+                            text="M16A4";
+                            textColor="0xFFFFFFFF";
+                            backgroundColor="0xFF1C82FF";
+                            id="m16";
+                            textSize="15sp";
+                            layout_gravity="center";
+                            layout_width="fill";
+                            layout_height="wrap";
+                            padding="4dp";
+                            layout_margin="3dp";
+                          };
+                          {
+                            RadioGroup;
+                            layout_height="wrap";
+                            layout_width="fill";
+                            {
+                              RadioButton;
+                              layout_width="-1";
+                              layout_height="wrap";
+                              textColor="0xffffffff";
+                              id="disable3";
+                              text="Disable/OFF";
+                              textSize="12dp";
+                              layout_margin="3dp";
+                            };
+                            {
+                              RadioButton;
+                              layout_width="-1";
+                              layout_height="wrap";
+                              textColor="0xffffffff";
+                              id="aurora";
+                              text="Aurora Pulse";
+                              textSize="12dp";
+                              layout_margin="3dp";
+                            };
+                            {
+                              RadioButton;
+                              layout_width="-1";
+                              layout_height="wrap";
+                              textColor="0xffffffff";
+                              id="blood";
+                              text="Blood & Bones";
+                              textSize="12dp";
+                              layout_margin="3dp";
+                            };
+                          };
+                          {
+                            TextView;
+                            text="M762";
+                            textColor="0xFFFFFFFF";
+                            backgroundColor="0xFF1C82FF";
+                            id="m7";
+                            textSize="15sp";
+                            layout_gravity="center";
+                            layout_width="fill";
+                            layout_height="wrap";
+                            padding="4dp";
+                            layout_margin="3dp";
+                          };
+                          {
+                            RadioGroup;
+                            layout_height="wrap";
+                            layout_width="fill";
+                            {
+                              RadioButton;
+                              layout_width="-1";
+                              layout_height="wrap";
+                              textColor="0xffffffff";
+                              id="disable4";
+                              text="Disable/OFF";
+                              textSize="12dp";
+                              layout_margin="3dp";
+                            };
+                            {
+                              RadioButton;
+                              layout_width="-1";
+                              layout_height="wrap";
+                              textColor="0xffffffff";
+                              id="unicorn";
+                              text="8-Bit Unicorn";
+                              textSize="12dp";
+                              layout_margin="3dp";
+                            };
+                            {
+                              RadioButton;
+                              layout_width="-1";
+                              layout_height="wrap";
+                              textColor="0xffffffff";
+                              id="love";
+                              text="Concerto Of Love";
+                              textSize="12dp";
+                              layout_margin="3dp";
+                            };
+                          };
+                          {
+                            TextView;
+                            text="GROZA";
+                            textColor="0xFFFFFFFF";
+                            backgroundColor="0xFF1C82FF";
+                            id="groza";
+                            textSize="15sp";
+                            layout_gravity="center";
+                            layout_width="fill";
+                            layout_height="wrap";
+                            padding="4dp";
+                            layout_margin="3dp";
+                          };
+                          {
+                            RadioGroup;
+                            layout_height="wrap";
+                            layout_width="fill";
+                            {
+                              RadioButton;
+                              layout_width="-1";
+                              layout_height="wrap";
+                              textColor="0xffffffff";
+                              id="disable5";
+                              text="Disable/OFF";
+                              textSize="12dp";
+                              layout_margin="3dp";
+                            };
+                            {
+                              RadioButton;
+                              layout_width="-1";
+                              layout_height="wrap";
+                              textColor="0xffffffff";
+                              id="forest";
+                              text="Forest Rider";
+                              textSize="12dp";
+                              layout_margin="3dp";
+                            };
+                            {
+                              RadioButton;
+                              layout_width="-1";
+                              layout_height="wrap";
+                              textColor="0xffffffff";
+                              id="aria";
+                              text="Eventide Aria";
+                              textSize="12dp";
+                              layout_margin="3dp";
+                            };
+                          };
+                          {
+                            TextView;
+                            text="QBZ";
+                            textColor="0xFFFFFFFF";
+                            backgroundColor="0xFF1C82FF";
+                            id="qbz";
+                            textSize="15sp";
+                            layout_gravity="center";
+                            layout_width="fill";
+                            layout_height="wrap";
+                            padding="4dp";
+                            layout_margin="3dp";
+                          };
+                          {
+                            RadioGroup;
+                            layout_height="wrap";
+                            layout_width="fill";
+                            {
+                              RadioButton;
+                              layout_width="-1";
+                              layout_height="wrap";
+                              textColor="0xffffffff";
+                              id="disable6";
+                              text="Disable/OFF";
+                              textSize="12dp";
+                              layout_margin="3dp";
+                            };
+                            {
+                              RadioButton;
+                              layout_width="-1";
+                              layout_height="wrap";
+                              textColor="0xffffffff";
+                              id="sun";
+                              text="Dazzling Sun";
+                              textSize="12dp";
+                              layout_margin="3dp";
+                            };
+                          };
+                          {
+                            TextView;
+                            text="M249";
+                            textColor="0xFFFFFFFF";
+                            backgroundColor="0xFF1C82FF";
+                            id="m249";
+                            textSize="15sp";
+                            layout_gravity="center";
+                            layout_width="fill";
+                            layout_height="wrap";
+                            padding="4dp";
+                            layout_margin="3dp";
+                          };
+                          {
+                            RadioGroup;
+                            layout_height="wrap";
+                            layout_width="fill";
+                            {
+                              RadioButton;
+                              layout_width="-1";
+                              layout_height="wrap";
+                              textColor="0xffffffff";
+                              id="disable7";
+                              text="Disable/OFF";
+                              textSize="12dp";
+                              layout_margin="3dp";
+                            };
+                            {
+                              RadioButton;
+                              layout_width="-1";
+                              layout_height="wrap";
+                              textColor="0xffffffff";
+                              id="queen";
+                              text="Winter Queen";
+                              textSize="12dp";
+                              layout_margin="3dp";
+                            };
+                          };
+                          {
+                            TextView;
+                            text="DP-28";
+                            textColor="0xFFFFFFFF";
+                            backgroundColor="0xFF1C82FF";
+                            id="dp";
+                            textSize="15sp";
+                            layout_gravity="center";
+                            layout_width="fill";
+                            layout_height="wrap";
+                            padding="4dp";
+                            layout_margin="3dp";
+                          };
+                          {
+                            RadioGroup;
+                            layout_height="wrap";
+                            layout_width="fill";
+                            {
+                              RadioButton;
+                              layout_width="-1";
+                              layout_height="wrap";
+                              textColor="0xffffffff";
+                              id="disable8";
+                              text="Disable/OFF";
+                              textSize="12dp";
+                              layout_margin="3dp";
+                            };
+                            {
+                              RadioButton;
+                              layout_width="-1";
+                              layout_height="wrap";
+                              textColor="0xffffffff";
+                              id="killer";
+                              text="Enigmatic Killer";
+                              textSize="12dp";
+                              layout_margin="3dp";
+                            };
+                          };
+                          {
+                            TextView;
+                            text="AWM";
+                            textColor="0xFFFFFFFF";
+                            backgroundColor="0xFF1C82FF";
+                            id="awm";
+                            textSize="15sp";
+                            layout_gravity="center";
+                            layout_width="fill";
+                            layout_height="wrap";
+                            padding="4dp";
+                            layout_margin="3dp";
+                          };
+                          {
+                            RadioGroup;
+                            layout_height="wrap";
+                            layout_width="fill";
+                            {
+                              RadioButton;
+                              layout_width="-1";
+                              layout_height="wrap";
+                              textColor="0xffffffff";
+                              id="disable9";
+                              text="Disable/OFF";
+                              textSize="12dp";
+                              layout_margin="3dp";
+                            };
+                            {
+                              RadioButton;
+                              layout_width="-1";
+                              layout_height="wrap";
+                              textColor="0xffffffff";
+                              id="godzilla";
+                              text="Godzilla";
+                              textSize="12dp";
+                              layout_margin="3dp";
+                            };
+                          };
+                          {
+                            TextView;
+
+                            text="VSS";
+                            textColor="0xFFFFFFFF";
+                            backgroundColor="0xFF1C82FF";
+                            id="vss";
+                            textSize="15sp";
+                            layout_gravity="center";
+                            layout_width="fill";
+                            layout_height="wrap";
+                            padding="4dp";
+                            layout_margin="3dp";
+                          };
+                          {
+                            RadioGroup;
+                            layout_height="wrap";
+                            layout_width="fill";
+                            {
+                              RadioButton;
+                              layout_width="-1";
+                              layout_height="wrap";
+                              textColor="0xffffffff";
+                              id="disable10";
+                              text="Disable/OFF";
+                              textSize="12dp";
+                              layout_margin="3dp";
+                            };
+                            {
+                              RadioButton;
+                              layout_width="-1";
+                              layout_height="wrap";
+                              textColor="0xffffffff";
+                              id="crow";
+                              text="Crow";
+                              textSize="12dp";
+                              layout_margin="3dp";
+                            };
+                          };
+                          {
+                            TextView;
+                            text="MINI14";
+                            textColor="0xFFFFFFFF";
+                            backgroundColor="0xFF1C82FF";
+                            id="mini";
+                            textSize="15sp";
+                            layout_gravity="center";
+                            layout_width="fill";
+                            layout_height="wrap";
+                            padding="4dp";
+                            layout_margin="3dp";
+                          };
+                          {
+                            RadioGroup;
+                            layout_height="wrap";
+                            layout_width="fill";
+                            {
+                              RadioButton;
+                              layout_width="-1";
+                              layout_height="wrap";
+                              textColor="0xffffffff";
+                              id="disable11";
+                              text="Disable/OFF";
+                              textSize="12dp";
+                              layout_margin="3dp";
+                            };
+                            {
+                              RadioButton;
+                              layout_width="-1";
+                              layout_height="wrap";
+                              textColor="0xffffffff";
+                              id="icicle";
+                              text="Icicle";
+                              textSize="12dp";
+                              layout_margin="3dp";
+                            };
+                          };
+
+                        };
+                      };
+                    };
+                  };
+                };
+
+              };
+            };
+          };
+        };
+      };
+    };
+  };
+};

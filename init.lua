@@ -1,0 +1,22 @@
+--名称
+appname="Grehan"
+--包名
+packagename="com.Grehan.hacks"
+--版本
+appcode="1"
+--版本号
+appver="2.0"
+--SDK
+appsdk="15"
+--调试模式
+debugmode=false
+--应用权限
+user_permission={
+  "DOWNLOAD_WITHOUT_NOTIFICATION",
+  "INTERNET",
+  "SYSTEM_ALERT_WINDOW",
+  "WRITE_EXTERNAL_STORAGE",
+}
+--跳过编译
+skip_compilation={
+}

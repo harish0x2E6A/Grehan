@@ -1,0 +1,1127 @@
+{
+  LinearLayout;
+  layout_height="fill";
+  layout_width="fill";
+  backgroundColor="0xFF212121";
+  {
+    LinearLayout;
+    id="float";
+    layout_height="fill";
+    orientation="vertical";
+    layout_width="fill";
+    {
+      LinearLayout;
+      layout_height="2%h";
+      layout_width="fill";
+    };
+    {
+      CardView,
+      id="",
+      layout_height = "9%h",
+      backgroundColor = "0xFF333333",
+      layout_gravity = "center",
+      layout_width = "fill",
+      layout_marginTop="40dp";
+      radius = "5dp",
+      {
+        LinearLayout;
+        layout_height="match_parent";
+        orientation="horizontal";
+        gravity="left";
+        layout_width="match_parent";
+        {
+          LinearLayout;
+          layout_height="fill";
+          layout_width="2%h";
+        };
+        {
+          ImageView;
+          layout_gravity="center",
+          layout_width="7%h";
+          layout_height="7%h";
+          src="res/drawable/user.png";
+          colorFilter="0x35FFFFFF";
+        };
+        {
+          LinearLayout;
+          layout_height="fill";
+          layout_width="3%w";
+        };
+        {
+          TextView;
+          id="t1";
+          textSize="17sp";
+          layout_height="wrap";
+          gravity="center";
+          layout_gravity="center";
+          text="Username    :";
+          textColor="0xFFFFFFFF";
+          layout_width="wrap";
+          Typeface=Typeface.defaultFromStyle(Typeface.BOLD);
+        };
+        {
+          LinearLayout;
+          layout_height="fill";
+          layout_width="5%w";
+        };
+        {
+          TextView;
+          id="t3";
+          textSize="14sp";
+          layout_height="wrap";
+          gravity="center";
+          layout_gravity="center";
+          text=" Fuckoff crackers";
+          textColor="0xCEFFFFFF";
+          layout_width="wrap";
+          Typeface=Typeface.defaultFromStyle(Typeface.BOLD);
+        };
+      };
+    };
+    {
+      LinearLayout;
+      layout_height="4%h";
+      layout_width="fill";
+    };
+    {
+      LinearLayout;
+      gravity="center";
+      layout_width="fill";
+      layout_height="wrap";
+      {
+        CardView;
+        radius="10dp";
+        backgroundColor="0xFF393939";
+        layout_width="80%w";
+        layout_gravity="center";
+        layout_height="wrap";
+        {
+          LinearLayout;
+          layout_margin="2.5%h";
+          orientation="vertical";
+          layout_width="fill";
+          layout_height="fill";
+          {
+            TextView;
+            textSize="15sp";
+            textColor="0xFFFFFFFF";
+            id="txtDataInfo";
+            text="Data info";
+            layout_width="wrap";
+            layout_height="wrap";
+          };
+          {
+            LinearLayout;
+            layout_width="fill";
+            layout_height="1%h";
+          };
+
+          {
+            LinearLayout;
+            gravity="center";
+            orientation="horizontal";
+            layout_width="wrap";
+            layout_height="wrap";
+            {
+              ImageView;
+              colorFilter="0xFFFFFFFF";
+              src="res/drawable/game.png";
+              layout_width="2%h";
+              layout_height="2%h";
+            };
+            {
+              LinearLayout;
+              layout_width="1%h";
+              layout_height="fill";
+            };
+            {
+              TextView;
+              textSize="13sp";
+              textColor="0xffffffff";
+              text="Game : ";
+              Typeface=Typeface.defaultFromStyle(Typeface.ITALIC);
+
+              layout_width="wrap";
+              layout_height="wrap";
+            };
+            {
+              TextView;
+              textSize="13sp";
+              textColor="0xB8FFFFFF";
+              id="game_44";
+              Typeface=Typeface.defaultFromStyle(Typeface.ITALIC);
+
+              text="BGMI";
+              layout_width="wrap";
+              layout_height="wrap";
+            };
+          };
+          {
+            LinearLayout;
+            gravity="center";
+            orientation="horizontal";
+            layout_width="wrap";
+            layout_height="wrap";
+            {
+              ImageView;
+              colorFilter="0xFFFFFFFF";
+              padding="-11dp";
+              src="res/drawable/status.png";
+              layout_width="2%h";
+              layout_height="2%h";
+            };
+            {
+              LinearLayout;
+              layout_width="1%h";
+              layout_height="fill";
+            };
+            {
+              TextView;
+              textSize="13sp";
+              textColor="0xffffffff";
+              text="Status :";
+
+              layout_width="wrap";
+              layout_height="wrap";
+            };
+            {
+              LinearLayout;
+              layout_width="5dp";
+              layout_height="fill";
+            };
+            {
+              TextView;
+              textSize="13sp";
+              textColor="0xCEFFFFFF";
+              id="stats";
+              Typeface=Typeface.defaultFromStyle(Typeface.ITALIC);
+
+              text="checking...";
+              layout_width="wrap";
+              layout_height="wrap";
+            };
+          };
+          {
+            LinearLayout;
+            layout_width="fill";
+            layout_height="0.5%h";
+          };
+
+
+          {
+            LinearLayout;
+            gravity="center";
+            orientation="horizontal";
+            layout_width="wrap";
+            layout_height="wrap";
+            {
+              ImageView;
+              colorFilter="0xFFFFFFFF";
+              src="res/drawable/file-outline.png";
+              layout_width="2%h";
+              layout_height="2%h";
+            };
+            {
+              LinearLayout;
+              layout_width="1%h";
+              layout_height="fill";
+            };
+            {
+              TextView;
+              textSize="13sp";
+              textColor="0xffffffff";
+              Typeface=Typeface.defaultFromStyle(Typeface.ITALIC);
+
+              text="File version: ";
+              layout_width="wrap";
+              layout_height="wrap";
+            };
+            {
+              LinearLayout;
+              layout_width="5dp";
+              layout_height="fill";
+            };
+            {
+              TextView;
+              textSize="13sp";
+              textColor="0xCEFFFFFF";
+              Typeface=Typeface.defaultFromStyle(Typeface.ITALIC);
+
+              text="1.0";
+              layout_width="wrap";
+              layout_height="wrap";
+            };
+          };
+          {
+            LinearLayout;
+            layout_width="fill";
+            layout_height="0.5%h";
+          };
+          {
+            LinearLayout;
+            gravity="center";
+            orientation="horizontal";
+            layout_width="wrap";
+            layout_height="wrap";
+            {
+              ImageView;
+              colorFilter="0xFFFFFFFF";
+              src="res/drawable/clock-time-four-outline.png";
+              layout_width="2%h";
+              layout_height="2%h";
+            };
+            {
+              LinearLayout;
+              layout_width="1%h";
+              layout_height="fill";
+            };
+            {
+              TextView;
+              textSize="13sp";
+              textColor="0xffffffff";
+              id="txtExpired";
+              Typeface=Typeface.defaultFromStyle(Typeface.ITALIC);
+
+              text="Expired date:";
+              layout_width="wrap";
+              layout_height="wrap";
+            };
+            {
+              LinearLayout;
+              layout_width="5dp";
+              layout_height="fill";
+            };
+            {
+              TextView;
+              textSize="13sp";
+              textColor="0xB8FFFFFF";
+              id="expDateX";
+              Typeface=Typeface.defaultFromStyle(Typeface.ITALIC);
+
+              text="Expired date:";
+              layout_width="wrap";
+              layout_height="wrap";
+            };
+          };
+        };
+      };
+    };
+    {
+      LinearLayout;
+      layout_height="2%h";
+      layout_width="fill";
+    };
+    {
+      LinearLayout;
+      gravity="center";
+      orientation="horizontal";
+      layout_width="fill";
+      layout_height="wrap";
+      {
+        CardView;
+        radius="10dp";
+        backgroundColor="0xFF1C82FF";
+        layout_width="37.5%w";
+        id="btnStart";
+        layout_gravity="center";
+        layout_height="11%h";
+        {
+          LinearLayout;
+          gravity="center";
+          orientation="vertical";
+          layout_width="fill";
+          layout_height="fill";
+          {
+            ImageView;
+            colorFilter="0xFFFFFFFF";
+            src="res/drawable/play-outline.png";
+            layout_width="5%h";
+            layout_height="5%h";
+          };
+          {
+            LinearLayout;
+            layout_width="fill";
+            layout_height="1%h";
+          };
+          {
+            TextView;
+            id="txtStart";
+            layout_height="wrap";
+            text="Start Cheat";
+            textSize="13sp";
+            layout_width="wrap";
+            textColor="0xFFFFFFFF";
+            layout_gravity="center";
+          };
+        };
+      };
+      {
+        LinearLayout;
+        layout_width="5%w";
+        layout_height="fill";
+      };
+      {
+        CardView;
+        radius="10dp";
+        backgroundColor="0xFFFE0000";
+        layout_width="37.5%w";
+        id="btnStop";
+        layout_gravity="center";
+        layout_height="11%h";
+        {
+          LinearLayout;
+          gravity="center";
+          orientation="vertical";
+          layout_width="fill";
+          layout_height="fill";
+          {
+            ImageView;
+            colorFilter="0xFFFFFFFF";
+            src="res/drawable/pause.png";
+            layout_width="5%h";
+            layout_height="5%h";
+          };
+          {
+            LinearLayout;
+            layout_width="fill";
+            layout_height="1%h";
+          };
+          {
+            TextView;
+            id="txtStop";
+            layout_height="wrap";
+            text="Stop Cheat";
+            textSize="13sp";
+            layout_width="wrap";
+            textColor="0xFFFFFFFF";
+            layout_gravity="center";
+          };
+        };
+      };
+
+    };
+    {
+      LinearLayout;
+      layout_width="fill";
+      layout_height="3%h";
+    };
+
+    {
+      LinearLayout;
+      layout_height="10dp";
+      layout_width="fill";
+    };
+
+
+    {
+      LinearLayout;
+      gravity="center";
+      orientation="vertical";
+      layout_width="fill";
+      id="";
+      layout_height="wrap";
+      {
+        CardView;
+        id="launchGame";
+        layout_margin="1%h";
+        backgroundColor="0xFF171717";
+        radius="5dp";
+        layout_height="wrap";
+        layout_width="85%w";
+        cardElevation="0.5%h";
+        onClick=function()
+
+          game={
+            LinearLayout;
+            layout_width="fill";
+            layout_height="fill";
+            gravity="center";
+            id="DialogExternal";
+            {
+              CardView,
+              id="DialogInternal";
+              layout_width="fill";
+              layout_height="wrap";
+              backgroundColor="0xFF171717";
+              cardElevation="5dp";
+              radius="15dp";
+              {
+                LinearLayout;
+                padding="2%h";
+                layout_width="fill";
+                layout_height="fill";
+                orientation="vertical";
+                gravity="center";
+                {
+                  TextView;
+                  layout_margin="1%h";
+                  text="SELECT GAME VERSION";
+                  textColor="0xA5FFFFFF";
+                  textSize="16sp";
+                  layout_height="wrap";
+                  layout_width="wrap";
+                  Typeface=Typeface.defaultFromStyle(Typeface.BOLD);
+                };
+                {
+                  CardView;
+                  id="launchPUBGMGL";
+                  layout_margin="1%h";
+                  backgroundColor="0xFF171717";
+                  radius="5dp";
+                  layout_height="wrap";
+                  layout_width="fill";
+                  cardElevation="0.5%h";
+                  {
+                    LinearLayout;
+                    gravity="center_vertical";
+                    padding="1%h";
+                    layout_height="fill";
+                    layout_width="fill";
+                    orientation="horizontal";
+                    {
+                      CircleImageView;
+                      layout_height="3%h";
+                      layout_width="3%h";
+                      src="res/drawable/global.webp";
+                    };
+                    {
+                      LinearLayout;
+                      layout_height="fill";
+                      layout_width="1%h";
+                    };
+                    {
+                      TextView;
+                      text="PUBGM Global";
+                      textColor="0xA5FFFFFF";
+                      textSize="14sp";
+                      layout_height="wrap";
+                      layout_width="wrap";
+                      Typeface=Typeface.defaultFromStyle(Typeface.BOLD);
+                    };
+                    {
+                      LinearLayout;
+                      layout_height="wrap";
+                      layout_width="fill";
+                      gravity="right";
+                      {
+                        ImageView;
+                        layout_height="3%h";
+                        layout_width="3%h";
+                        src="res/drawable/chevron-right.png";
+                        colorFilter="0x35000000";
+                      };
+                    };
+                  };
+                };
+                {
+                  CardView;
+                  id="launchPUBGMVN";
+                  layout_margin="1%h";
+                  backgroundColor="0xFF171717";
+                  radius="5dp";
+                  layout_height="wrap";
+                  layout_width="fill";
+                  cardElevation="0.5%h";
+                  {
+                    LinearLayout;
+                    gravity="center_vertical";
+                    padding="1%h";
+                    layout_height="fill";
+                    layout_width="fill";
+                    orientation="horizontal";
+                    {
+                      CircleImageView;
+                      layout_height="3%h";
+                      layout_width="3%h";
+                      src="res/drawable/vietnam.webp";
+                    };
+                    {
+                      LinearLayout;
+                      layout_height="fill";
+                      layout_width="1%h";
+                    };
+                    {
+                      TextView;
+                      text="PUBGM Vietnam";
+                      textColor="0xA5FFFFFF";
+                      textSize="14sp";
+                      layout_height="wrap";
+                      layout_width="wrap";
+                      Typeface=Typeface.defaultFromStyle(Typeface.BOLD);
+                    };
+                    {
+                      LinearLayout;
+                      layout_height="wrap";
+                      layout_width="fill";
+                      gravity="right";
+                      {
+                        ImageView;
+                        layout_height="3%h";
+                        layout_width="3%h";
+                        src="res/drawable/chevron-right.png";
+                        colorFilter="0x35000000";
+                      };
+                    };
+                  };
+                };
+                {
+                  CardView;
+                  id="launchPUBGMKR";
+                  layout_margin="1%h";
+                  backgroundColor="0xFF171717";
+                  radius="5dp";
+                  layout_height="wrap";
+                  layout_width="fill";
+                  cardElevation="0.5%h";
+                  {
+                    LinearLayout;
+                    gravity="center_vertical";
+                    padding="1%h";
+                    layout_height="fill";
+                    layout_width="fill";
+                    orientation="horizontal";
+                    {
+                      CircleImageView;
+                      layout_height="3%h";
+                      layout_width="3%h";
+                      src="res/drawable/korean.webp";
+                    };
+                    {
+                      LinearLayout;
+                      layout_height="fill";
+                      layout_width="1%h";
+                    };
+                    {
+                      TextView;
+                      text="PUBGM Korean";
+                      textColor="0xA5FFFFFF";
+                      textSize="14sp";
+                      layout_height="wrap";
+                      layout_width="wrap";
+                      Typeface=Typeface.defaultFromStyle(Typeface.BOLD);
+                    };
+                    {
+                      LinearLayout;
+                      layout_height="wrap";
+                      layout_width="fill";
+                      gravity="right";
+                      {
+                        ImageView;
+                        layout_height="3%h";
+                        layout_width="3%h";
+                        src="res/drawable/chevron-right.png";
+                        colorFilter="0x35000000";
+                      };
+                    };
+                  };
+                };
+                {
+                  CardView;
+                  id="launchPUBGMTW";
+                  layout_margin="1%h";
+                  backgroundColor="0xFF171717";
+                  radius="5dp";
+                  layout_height="wrap";
+                  layout_width="fill";
+                  cardElevation="0.5%h";
+                  {
+                    LinearLayout;
+                    gravity="center_vertical";
+                    padding="1%h";
+                    layout_height="fill";
+                    layout_width="fill";
+                    orientation="horizontal";
+                    {
+                      CircleImageView;
+                      layout_height="3%h";
+                      layout_width="3%h";
+                      src="res/drawable/taiwan.webp";
+                    };
+                    {
+                      LinearLayout;
+                      layout_height="fill";
+                      layout_width="1%h";
+                    };
+                    {
+                      TextView;
+                      text="PUBGM Taiwan";
+                      textColor="0xA5FFFFFF";
+                      textSize="14sp";
+                      layout_height="wrap";
+                      layout_width="wrap";
+                      Typeface=Typeface.defaultFromStyle(Typeface.BOLD);
+                    };
+                    {
+                      LinearLayout;
+                      layout_height="wrap";
+                      layout_width="fill";
+                      gravity="right";
+                      {
+                        ImageView;
+                        layout_height="3%h";
+                        layout_width="3%h";
+                        src="res/drawable/chevron-right.png";
+                        colorFilter="0x35000000";
+                      };
+                    };
+                  };
+                };
+                {
+                  CardView;
+                  id="launchPUBGMKR3";
+                  layout_margin="1%h";
+                  backgroundColor="0xFF171717";
+                  radius="5dp";
+                  layout_height="wrap";
+                  layout_width="fill";
+                  cardElevation="0.5%h";
+                  {
+                    LinearLayout;
+                    gravity="center_vertical";
+                    padding="1%h";
+                    layout_height="fill";
+                    layout_width="fill";
+                    orientation="horizontal";
+                    {
+                      CircleImageView;
+                      layout_height="3%h";
+                      layout_width="3%h";
+                      src="res/drawable/korean.webp";
+                    };
+                    {
+                      LinearLayout;
+                      layout_height="fill";
+                      layout_width="1%h";
+                    };
+                    {
+                      TextView;
+                      text="PUBGM MOBILE INDIA";
+                      textColor="0xA5FFFFFF";
+                      textSize="14sp";
+                      layout_height="wrap";
+                      layout_width="wrap";
+                      Typeface=Typeface.defaultFromStyle(Typeface.BOLD);
+                    };
+                    {
+                      LinearLayout;
+                      layout_height="wrap";
+                      layout_width="fill";
+                      gravity="right";
+                      {
+                        ImageView;
+                        layout_height="3%h";
+                        layout_width="3%h";
+                        src="res/drawable/chevron-right.png";
+                        colorFilter="0x35000000";
+                      };
+                    };
+                  };
+                };
+                {
+                  CardView;
+                  id="dismiss";
+                  layout_margin="1%h";
+                  backgroundColor="0xFF171717";
+                  radius="5dp";
+                  layout_height="wrap";
+                  layout_width="fill";
+                  cardElevation="0.5%h";
+                  {
+                    LinearLayout;
+                    gravity="center_vertical";
+                    padding="1%h";
+                    layout_height="fill";
+                    layout_width="fill";
+                    orientation="horizontal";
+                    {
+                      ImageView;
+                      layout_height="3%h";
+                      layout_width="3%h";
+                      src="res/drawable/stop.png";
+                      colorFilter="0xFFFFFFFC";
+                    };
+                    {
+                      LinearLayout;
+                      layout_height="fill";
+                      layout_width="1%h";
+                    };
+                    {
+                      TextView;
+                      text="Cancel";
+                      textColor="0xA5FFFFFF";
+                      textSize="14sp";
+                      layout_height="wrap";
+                      layout_width="wrap";
+                      Typeface=Typeface.defaultFromStyle(Typeface.BOLD);
+                    };
+                    {
+                      LinearLayout;
+                      layout_height="wrap";
+                      layout_width="fill";
+                      gravity="right";
+                      {
+                        ImageView;
+                        layout_height="3%h";
+                        layout_width="3%h";
+                        src="res/drawable/chevron-right.png";
+                        colorFilter="0x35000000";
+                      };
+                    };
+                  };
+                };
+              };
+            },
+          };
+          pop=PopupWindow(activity)
+          pop.setContentView(loadlayout(game))
+          pop.setWidth(-1)
+          pop.setHeight(-1)
+          pop.setOutsideTouchable(false)
+          import "android.graphics.drawable.BitmapDrawable"
+          pop.setBackgroundDrawable(BitmapDrawable(loadbitmap("1.jpg")))
+          pop.showAtLocation(view,Gravity.CENTER,0,500)
+
+          function launchPUBGMGL.onClick()
+            packageName="com.tencent.ig"
+            game_44.setText ("PUBG GLOBAL")
+            import "android.view.animation.LayoutAnimationController"
+            import "android.view.animation.Animation"
+            import "android.view.animation.AlphaAnimation"
+            import "android.view.animation.TranslateAnimation"
+            import "android.view.animation.AnimationSet"
+            import "android.view.animation.TranslateAnimation"
+
+            Translate_up_down=TranslateAnimation(0, 0, 0, 1000)
+            Translate_up_down.setDuration(300)
+            --Translate_up_down.setFillAfter(true)
+            DialogInternal.startAnimation(Translate_up_down)
+
+            import "android.view.animation.Animation$AnimationListener"
+            Translate_up_down.setAnimationListener(AnimationListener{
+              onAnimationEnd=function()
+                pop.dismiss()
+              end
+            })
+          end
+
+          function launchPUBGMVN.onClick()
+            game_44.setText ("PUBG VIETNAM")
+            packageName="com.vng.pubgmobile"
+            import "android.view.animation.LayoutAnimationController"
+            import "android.view.animation.Animation"
+            import "android.view.animation.AlphaAnimation"
+            import "android.view.animation.TranslateAnimation"
+            import "android.view.animation.AnimationSet"
+            import "android.view.animation.TranslateAnimation"
+
+            Translate_up_down=TranslateAnimation(0, 0, 0, 1000)
+            Translate_up_down.setDuration(300)
+            --Translate_up_down.setFillAfter(true)
+            DialogInternal.startAnimation(Translate_up_down)
+
+            import "android.view.animation.Animation$AnimationListener"
+            Translate_up_down.setAnimationListener(AnimationListener{
+              onAnimationEnd=function()
+                pop.dismiss()
+              end
+            })
+          end
+
+          function launchPUBGMKR.onClick()
+            game_44.setText ("PUBG KOREA")
+            packageName="com.pubg.krmobile"
+            import "android.view.animation.LayoutAnimationController"
+            import "android.view.animation.Animation"
+            import "android.view.animation.AlphaAnimation"
+            import "android.view.animation.TranslateAnimation"
+            import "android.view.animation.AnimationSet"
+            import "android.view.animation.TranslateAnimation"
+
+            Translate_up_down=TranslateAnimation(0, 0, 0, 1000)
+            Translate_up_down.setDuration(300)
+            --Translate_up_down.setFillAfter(true)
+            DialogInternal.startAnimation(Translate_up_down)
+
+            import "android.view.animation.Animation$AnimationListener"
+            Translate_up_down.setAnimationListener(AnimationListener{
+              onAnimationEnd=function()
+                pop.dismiss()
+              end
+            })
+          end
+          function launchPUBGMKR3.onClick()
+            packageName="com.pubg.imobile"
+            game_44.setText ("BGMI")
+            import "android.view.animation.LayoutAnimationController"
+            import "android.view.animation.Animation"
+            import "android.view.animation.AlphaAnimation"
+            import "android.view.animation.TranslateAnimation"
+            import "android.view.animation.AnimationSet"
+            import "android.view.animation.TranslateAnimation"
+
+            Translate_up_down=TranslateAnimation(0, 0, 0, 1000)
+            Translate_up_down.setDuration(300)
+            --Translate_up_down.setFillAfter(true)
+            DialogInternal.startAnimation(Translate_up_down)
+
+            import "android.view.animation.Animation$AnimationListener"
+            Translate_up_down.setAnimationListener(AnimationListener{
+              onAnimationEnd=function()
+                pop.dismiss()
+              end
+            })
+          end
+          function launchPUBGMTW.onClick()
+            packageName="com.rekoo.pubgm"
+            game_44.setText ("PUBG TAIWAN")
+            import "android.view.animation.LayoutAnimationController"
+            import "android.view.animation.Animation"
+            import "android.view.animation.AlphaAnimation"
+            import "android.view.animation.TranslateAnimation"
+            import "android.view.animation.AnimationSet"
+            import "android.view.animation.TranslateAnimation"
+
+            Translate_up_down=TranslateAnimation(0, 0, 0, 1000)
+            Translate_up_down.setDuration(300)
+            --Translate_up_down.setFillAfter(true)
+            DialogInternal.startAnimation(Translate_up_down)
+
+            import "android.view.animation.Animation$AnimationListener"
+            Translate_up_down.setAnimationListener(AnimationListener{
+              onAnimationEnd=function()
+                pop.dismiss()
+              end
+            })
+          end
+
+          function dismiss.onClick()
+            import "android.view.animation.LayoutAnimationController"
+            import "android.view.animation.Animation"
+            import "android.view.animation.AlphaAnimation"
+            import "android.view.animation.TranslateAnimation"
+            import "android.view.animation.AnimationSet"
+            import "android.view.animation.TranslateAnimation"
+
+            Translate_up_down=TranslateAnimation(0, 0, 0, 1000)
+            Translate_up_down.setDuration(300)
+            --Translate_up_down.setFillAfter(true)
+            DialogInternal.startAnimation(Translate_up_down)
+
+            import "android.view.animation.Animation$AnimationListener"
+            Translate_up_down.setAnimationListener(AnimationListener{
+              onAnimationEnd=function()
+                pop.dismiss()
+              end
+            })
+          end
+
+          import "android.view.animation.LayoutAnimationController"
+          import "android.view.animation.Animation"
+          import "android.view.animation.AlphaAnimation"
+          import "android.view.animation.TranslateAnimation"
+          import "android.view.animation.AnimationSet"
+
+          animationSet = AnimationSet(true)
+          layoutAnimationController=LayoutAnimationController(animationSet,0);
+          layoutAnimationController.setOrder(LayoutAnimationController.ORDER_NORMAL);
+          popX= AlphaAnimation(0,1);
+          popX.setDuration(200);
+          animationSet.addAnimation(popX);
+          popY=TranslateAnimation(0, 0,activity.height,0)
+          popY.setDuration(300);
+          animationSet.addAnimation(popY);
+          DialogExternal.setLayoutAnimation(layoutAnimationController);
+        end;
+        {
+          LinearLayout;
+          gravity="center_vertical";
+          padding="1%h";
+          layout_height="fill";
+          layout_width="fill";
+          orientation="horizontal";
+          {
+            ImageView;
+            layout_height="3%h";
+            layout_width="3%h";
+            src="res/drawable/gamepad-variant.png";
+            colorFilter="0xFFFFFFFC";
+          };
+          {
+            LinearLayout;
+            layout_height="fill";
+            layout_width="1%h";
+          };
+          {
+            TextView;
+            text="Select Game";
+            textColor="0xA5FFFFFF";
+            textSize="14sp";
+            layout_height="wrap";
+            layout_width="wrap";
+            Typeface=Typeface.defaultFromStyle(Typeface.BOLD);
+          };
+          {
+            LinearLayout;
+            layout_height="wrap";
+            layout_width="fill";
+            gravity="right";
+            {
+              ImageView;
+              layout_height="3%h";
+              layout_width="3%h";
+              src="res/drawable/chevron-right.png";
+              colorFilter="0x35000000";
+            };
+          };
+        };
+      };
+      {
+        CardView;
+        layout_margin="1%h";
+        backgroundColor="0xFF171717";
+        radius="5dp";
+        id= "crsh";
+        layout_height="wrap";
+        layout_width="85%w";
+        cardElevation="0.5%h";
+
+
+        {
+          LinearLayout;
+          gravity="center_vertical";
+          padding="1%h";
+          layout_height="fill";
+          layout_width="fill";
+          orientation="horizontal";
+          {
+            ImageView;
+            layout_height="3%h";
+            layout_width="3%h";
+            src="res/drawable/setting.png";
+            colorFilter="0xFFFFFFFF";
+          };
+          {
+            LinearLayout;
+            layout_height="fill";
+            layout_width="1%h";
+          };
+          {
+            TextView;
+            text="Crash Fix";
+            textColor="0xA5FFFFFF";
+            textSize="14sp";
+            layout_height="wrap";
+            layout_width="wrap";
+            Typeface=Typeface.defaultFromStyle(Typeface.BOLD);
+          };
+          {
+            LinearLayout;
+            layout_height="wrap";
+            layout_width="fill";
+            gravity="right";
+            {
+              ImageView;
+              layout_height="3%h";
+              layout_width="3%h";
+              src="res/drawable/chevron-right.png";
+              colorFilter="0x35000000";
+            };
+          };
+        };
+      };
+      {
+        CardView;
+        layout_margin="1%h";
+        backgroundColor="0xFF171717";
+        radius="5dp";
+        layout_height="wrap";
+        layout_width="85%w";
+        cardElevation="0.5%h";
+        id="btmenu";
+        {
+          LinearLayout;
+          gravity="center_vertical";
+          padding="1%h";
+          layout_height="fill";
+          layout_width="fill";
+          orientation="horizontal";
+          {
+            ImageView;
+            layout_height="3%h";
+            layout_width="3%h";
+            padding="-6dp";
+            src="res/drawable/bullet.png";
+            colorFilter="0xFFFFFFFC";
+          };
+          {
+            LinearLayout;
+            layout_height="fill";
+            layout_width="1%h";
+          };
+          {
+            TextView;
+            text="Bullet Track";
+            textColor="0x757B7774";
+            textSize="14sp";
+            layout_height="wrap";
+            layout_width="wrap";
+            Typeface=Typeface.defaultFromStyle(Typeface.BOLD);
+          };
+          {
+            LinearLayout;
+            layout_height="wrap";
+            layout_width="fill";
+            gravity="right";
+            {
+              ImageView;
+              layout_height="3%h";
+              layout_width="3%h";
+              src="res/drawable/chevron-right.png";
+              colorFilter="0x35000000";
+            };
+          };
+        };
+      };
+    };
+    {
+      LinearLayout;
+      layout_width="fill";
+      layout_height="19%h";
+    };
+    {
+      LinearLayout;
+      gravity="center";
+      orientation="horizontal";
+      layout_width="fill";
+      id="";
+      layout_height="match_parent";
+      {
+        CardView;
+        radius="5dp";
+        backgroundColor="0xFF252525";
+        layout_width="35%w";
+        id="hhh";
+        layout_gravity="center";
+        layout_height="10%h";
+        {
+          LinearLayout;
+          gravity="center";
+          orientation="horizontal";
+          id="dbh";
+          layout_width="fill";
+          layout_height="match_parent";
+          { ImageView;
+            colorFilter="0xFFFF0000";
+            id="tele_gram";
+            src="res/drawable/tele.png";
+            padding="9dp";
+            layout_width="10%h";
+            layout_height="10%h";
+          };
+        };
+      };
+    };
+
+
+  };
+};

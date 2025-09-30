@@ -1,0 +1,2 @@
+iptables --flush
+iptables -F
